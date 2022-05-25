@@ -50,11 +50,6 @@ jamf –removeFramework
 jamf removeMdmProfile
 ```
 
-# Checking on Processes on a MAC
-``` ruby
-top
-```
-
 # Collecting logs to check for JAMF
 collect logs from these locations:
 ```
@@ -62,7 +57,10 @@ collect logs from these locations:
 /private/var/log/jamf.log
 /private/var/log/system.log* 
 ```
-
+# Checking on Processes on a MAC
+``` ruby
+top
+```
 or use Activity Monitor <br/>
 ![image](https://user-images.githubusercontent.com/44326428/170172842-7d1c6625-dcf0-4dc6-81f5-f0c7a2dbb473.png) 
 
