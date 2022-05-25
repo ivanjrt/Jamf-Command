@@ -54,6 +54,15 @@ jamf removeMdmProfile
 ``` ruby
 top
 ```
+
+# Collecting logs to check for JAMF
+collect logs from these locations:
+```
+/private/var/log/install.log* 
+/private/var/log/jamf.log
+/private/var/log/system.log* 
+```
+
 or use Activity Monitor <br/>
 ![image](https://user-images.githubusercontent.com/44326428/170172842-7d1c6625-dcf0-4dc6-81f5-f0c7a2dbb473.png) 
 
@@ -61,7 +70,6 @@ or use Activity Monitor <br/>
 <br/>
 # Connecting Jamf Pro with Intune Commercial<br/>
 https://docs.jamf.com/10.24.1/jamf-pro/administrator-guide/Microsoft_Intune_Integration.html
-
 
 ![image](https://user-images.githubusercontent.com/44326428/170173545-de12f01c-f1c0-40c5-bf89-8e17418c4d97.png)
 if doing this the MDM managment will come from JAMF the only thing intune will recieve is the inventory and from there can create a Compliance.<br/>
